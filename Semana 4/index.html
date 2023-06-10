@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Semana 4</title>
+</head>
+<body bgcolor="#eacedd">
+
+    <!-- nav>ul>li*3>a -->
+    <nav>
+        Anclas:
+        <ul>
+            <li><a href="#Hipervinculo">Ir a Hipervinculo</a></li>
+            <li><a href="#Ordenadas">Ir a Listas Ordenadas</a></li>
+            <li><a href="#Desordenadas">Ir a Listas Desordenadas</a></li>
+            <li><a href="#Video">Ir a Video</a></li>
+        </ul>
+    </nav>
+
+    <h1>Listas</h1>
+
+    <a name="Ordenadas">
+        <h1>Listas Ordenadas</h1>
+        <!-- /* Los menus son listas ordenadas */ -->
+        colores:
+            <ol type="A">
+                <li>Negro</li>
+                <li>Verde</li>
+                <li>Rojo</li>
+                <li>Azul</li>
+                <li>Rosado</li>
+            </ol>
+        <!--ol>li*3>a -->
+            <ol type="I">
+                <li>Negro</li>
+                <li>Verde</li>
+                <li>Rojo</li>
+                <li>Azul</li>
+                <li>Rosado</li>
+            </ol>
+    </a>
+    <a name="Desordenadas">
+        <h1>Listas Desordenadas</h1>
+        <!-- Aqui solo listas sin enumeración ul>li*x -->
+        Frutas:
+            <ul type="square">
+            <li>Manzana</li>
+            <li>Sandia</li>
+            <li>Mango</li>
+        </ul>
+        <ul type="circle">
+            <li>Manzana</li>
+            <li>Sandia</li>
+            <li>Mango</li>
+        </ul>
+    </a>
+
+    <h2>Listas de definición</h2>
+    <!-- formado diccionario "dl"-->
+    <dl>
+        <dt>SIDA</dt>
+            <dd>Sindrome de Unsuficiencia ad....</dd>
+        <dt>UTN</dt>
+            <dd>Universidad Tecnica Nacional</dd>
+    </dl>
+    <!-- h3>ol>li*3>ul>li*3 -->
+    <h3>
+        Listas combinadas:
+        <ol type="A">
+            <li>
+                Raza de Perro:
+                <ul type="square">
+                    <li>Pastor</li>
+                    <li>Chihuahua</li>
+                    <li>Labrador</li>
+                </ul>
+            </li>
+            <li>
+                Raza de gatos:
+                <ul type="circle">
+                    <li>Persa</li>
+                    <li>Egipcio</li>
+                    <li>Siberiano</li>
+                </ul>
+            </li>
+            <li>
+                Raza de caballos:
+                <ul type="disc">
+                    <li>Percharon</li>
+                    <li>Español</li>
+                    <li>Ingles</li>
+                </ul>
+            </li>
+        </ol>
+    </h3>
+
+    <a name="Hipervinculo">
+        <h1>Hipervinculos:</h1>
+        <!-- 3 tipos -->
+        <h2>Interno</h2>
+        <!-- a href=""
+        rutas relativas ../..index.html -->
+        <a href="../../Contactenos.html">Contactenos</a>
+        <h2>Externo</h2>
+        <a href="https://www.youtube.com/"><img src="../../Imagenes/Youtube.PNG" alt="Youtube"
+            width="100px"
+            height="100px"></a>
+    
+    </a>
+    <a name="Video">
+<h2>
+    Video:
+    <!-- Video si esta dentro de la carpeta -->
+    <video src=""></video>
+    <!-- video por youtube -->
+    <iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/azdwsXLmrHE" 
+    title="YouTube Queen Radio Ga Ga" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen></iframe>
+</h2>
+
+    </a>
+<a name="Tablas">
+    <!-- table>tr(filas)*3>td(columnas) -->
+    <h2>Tabla:
+        <table border="1", width="300px">
+            <caption>Tabla Regular</caption>
+            <tr>
+                <th>Columna 1</th>
+                <th>Columna 2</th>
+            </tr>
+            <tr>
+                <td>R1, C1</td>
+                <td>R1, C2</td>
+            </tr>
+            <tr>
+                <td>R2, C1</td>
+                <td>R2, C2</td>
+            </tr>
+            <tr>
+                <td>R3, C1</td>
+                <td>R3, C2</td>
+            </tr>
+        </table>
+
+        <table border="2", width="300px", bgcolor="#74a2f7">
+            <caption>Tabla Irregular</caption>
+
+            <tr>
+                <td colspan="3">Alfa</td>
+                <td>Bravo</td>
+                <td rowspan="2">Charlie</td></tr>
+            <tr>
+                <td>Delta</td>
+                <td>Echo</td>
+                <td>Foxtrot</td>
+                <td>Golf</td></tr>
+            <tr>
+                <td>Hotel</td>
+                <td colspan="3" rowspan="2">India</td>
+                <td>Juliet</td></tr>
+            <tr>
+                <td>Kilo</td>
+                <td>Lima</td></tr>
+            <tr>
+                <td>Mike</td>
+                <td>November</td>
+                <td>Oscar</td>
+                <td>Papa</td>
+                <td>Quebec</td></tr>
+        </table>
+    </h2>
+</a>
+
+
+</body>
+</html>
